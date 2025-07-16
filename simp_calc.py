@@ -7,6 +7,7 @@ print('''************
 5. exponential
 
 ********''')
+"""
 print("Enter two numbers to add")
 # prompt a user for a number and store it 
 first_num = input("first_num: ")
@@ -26,15 +27,15 @@ first_num = input("first_num: ")
 second_num = input("second_num: ")
 sub = float(first_num) - float(second_num)
 print(f"{first_num} - {second_num}= {sub}")
-
+"""
 print('''*******
 Multiplication''')
 #prompt a user for a number and multiply
 first_num = input("first_num:")
 # prompt a user for a number and store it
-second_num = input("second_num")
+second_num = input("second_num:")
 mul = float(first_num) * float(second_num)
-print(f"{first_num} * {second_num} = {sum:,.2f}")
+print(f"{first_num} * {second_num} = {mul:,.2f}")
 
 print('''********
 exponential
@@ -42,7 +43,28 @@ exponential
 #prompt a user for a number and exponent
 first_num = input("first_num:")
 # prompt a user for a number and store it
-second_num = input("second_num")
+second_num = input("second_num:")
 exp = float(first_num) ** float(second_num)
 print(f"{first_num} ** {second_num} = {exp:,.2f}")
+
+print(''' *******
+Floor division
+*****''')
+# prompt a user for number and store it
+first_num = input("first_num:")
+# prompt a user for number and store it
+second_num = input("second_num:")
+div = float(first_num) / float(second_num)
+print(div)
+
+print('''****
+Division 
+*****''')
+ # prompt a user for number and store it
+
+first_num = input("first_num:")
+# prompt a user for number and store it
+second_num = input("second_num:")
+floor_div = float(first_num) // float(second_num)
+print(floor_div)
 
